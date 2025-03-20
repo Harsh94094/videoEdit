@@ -85,3 +85,6 @@ export class VideoController {
     return { message: 'Thumbnail generated successfully', filePath: thumbnailPath };
   }
 }
+
+
+  

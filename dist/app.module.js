@@ -19,6 +19,12 @@ const quiz_module_1 = require("./quiz/quiz.module");
 const video_module_1 = require("./video/video.module");
 const uploadController_1 = require("./video/uploadController");
 const uploadServices_1 = require("./video/uploadServices");
+const chat_module_1 = require("./chat/chat.module");
+const user_module_1 = require("./user/user.module");
+const comment_module_1 = require("./comment/comment.module");
+const youtube_video_module_1 = require("./youtube-video/youtube-video.module");
+const ads_module_1 = require("./ads/ads.module");
+const subcripation_plan_module_1 = require("./subcripation-plan/subcripation-plan.module");
 let AppModule = class AppModule {
 };
 exports.AppModule = AppModule;
@@ -32,6 +38,12 @@ exports.AppModule = AppModule = __decorate([
             auth_module_1.AuthModule,
             quiz_module_1.QuizModule,
             video_module_1.VideoModule,
+            chat_module_1.ChatModule,
+            user_module_1.UserModule,
+            comment_module_1.CommentModule,
+            youtube_video_module_1.YoutubeVideoModule,
+            ads_module_1.AdsModule,
+            subcripation_plan_module_1.SubcripationPlanModule
         ],
         controllers: [app_controller_1.AppController, uploadController_1.UploadController],
         providers: [app_service_1.AppService, uploadServices_1.UploadService],
